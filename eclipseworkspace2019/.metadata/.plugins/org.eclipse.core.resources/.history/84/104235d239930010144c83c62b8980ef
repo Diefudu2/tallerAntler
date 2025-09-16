@@ -1,0 +1,4 @@
+program gauss{
+    println SIMULATEGAUSS(0, 1);  // Número aleatorio gaussiano media 0, sigma 1
+    println SIMULATEGAUSS(10, 2); // Número aleatorio gaussiano media 10, sigma 2
+}

@@ -1,0 +1,12 @@
+program mixto{
+    var a;
+    a = DIGITALROOT(556);
+    println a;                    
+    if (a > 5 && a < 8) {
+        println 6;
+    } else {
+        println false;
+    }
+    var r;
+    r = SIMULATEGAUSS(50, 10);
+    println r;

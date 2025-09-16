@@ -1,7 +1,1 @@
-var x;
-	x = 7
-	if (true) {
-	println x+5;
-	} else{
-	println 8;
-	}
+(

@@ -26,15 +26,15 @@ public interface SimpleListener extends ParseTreeListener {
 	 */
 	void exitSentence(@NotNull SimpleParser.SentenceContext ctx);
 	/**
-	 * Enter a parse tree produced by {@link SimpleParser#println}.
+	 * Enter a parse tree produced by {@link SimpleParser#logicTerm}.
 	 * @param ctx the parse tree
 	 */
-	void enterPrintln(@NotNull SimpleParser.PrintlnContext ctx);
+	void enterLogicTerm(@NotNull SimpleParser.LogicTermContext ctx);
 	/**
-	 * Exit a parse tree produced by {@link SimpleParser#println}.
+	 * Exit a parse tree produced by {@link SimpleParser#logicTerm}.
 	 * @param ctx the parse tree
 	 */
-	void exitPrintln(@NotNull SimpleParser.PrintlnContext ctx);
+	void exitLogicTerm(@NotNull SimpleParser.LogicTermContext ctx);
 	/**
 	 * Enter a parse tree produced by {@link SimpleParser#expression}.
 	 * @param ctx the parse tree
@@ -56,6 +56,16 @@ public interface SimpleListener extends ParseTreeListener {
 	 */
 	void exitConditional(@NotNull SimpleParser.ConditionalContext ctx);
 	/**
+	 * Enter a parse tree produced by {@link SimpleParser#specialFunc}.
+	 * @param ctx the parse tree
+	 */
+	void enterSpecialFunc(@NotNull SimpleParser.SpecialFuncContext ctx);
+	/**
+	 * Exit a parse tree produced by {@link SimpleParser#specialFunc}.
+	 * @param ctx the parse tree
+	 */
+	void exitSpecialFunc(@NotNull SimpleParser.SpecialFuncContext ctx);
+	/**
 	 * Enter a parse tree produced by {@link SimpleParser#var_assign}.
 	 * @param ctx the parse tree
 	 */
@@ -66,16 +76,6 @@ public interface SimpleListener extends ParseTreeListener {
 	 */
 	void exitVar_assign(@NotNull SimpleParser.Var_assignContext ctx);
 	/**
-	 * Enter a parse tree produced by {@link SimpleParser#term}.
-	 * @param ctx the parse tree
-	 */
-	void enterTerm(@NotNull SimpleParser.TermContext ctx);
-	/**
-	 * Exit a parse tree produced by {@link SimpleParser#term}.
-	 * @param ctx the parse tree
-	 */
-	void exitTerm(@NotNull SimpleParser.TermContext ctx);
-	/**
 	 * Enter a parse tree produced by {@link SimpleParser#program}.
 	 * @param ctx the parse tree
 	 */
@@ -85,6 +85,56 @@ public interface SimpleListener extends ParseTreeListener {
 	 * @param ctx the parse tree
 	 */
 	void exitProgram(@NotNull SimpleParser.ProgramContext ctx);
+	/**
+	 * Enter a parse tree produced by {@link SimpleParser#arithExpr}.
+	 * @param ctx the parse tree
+	 */
+	void enterArithExpr(@NotNull SimpleParser.ArithExprContext ctx);
+	/**
+	 * Exit a parse tree produced by {@link SimpleParser#arithExpr}.
+	 * @param ctx the parse tree
+	 */
+	void exitArithExpr(@NotNull SimpleParser.ArithExprContext ctx);
+	/**
+	 * Enter a parse tree produced by {@link SimpleParser#println}.
+	 * @param ctx the parse tree
+	 */
+	void enterPrintln(@NotNull SimpleParser.PrintlnContext ctx);
+	/**
+	 * Exit a parse tree produced by {@link SimpleParser#println}.
+	 * @param ctx the parse tree
+	 */
+	void exitPrintln(@NotNull SimpleParser.PrintlnContext ctx);
+	/**
+	 * Enter a parse tree produced by {@link SimpleParser#logicFactor}.
+	 * @param ctx the parse tree
+	 */
+	void enterLogicFactor(@NotNull SimpleParser.LogicFactorContext ctx);
+	/**
+	 * Exit a parse tree produced by {@link SimpleParser#logicFactor}.
+	 * @param ctx the parse tree
+	 */
+	void exitLogicFactor(@NotNull SimpleParser.LogicFactorContext ctx);
+	/**
+	 * Enter a parse tree produced by {@link SimpleParser#relational}.
+	 * @param ctx the parse tree
+	 */
+	void enterRelational(@NotNull SimpleParser.RelationalContext ctx);
+	/**
+	 * Exit a parse tree produced by {@link SimpleParser#relational}.
+	 * @param ctx the parse tree
+	 */
+	void exitRelational(@NotNull SimpleParser.RelationalContext ctx);
+	/**
+	 * Enter a parse tree produced by {@link SimpleParser#term}.
+	 * @param ctx the parse tree
+	 */
+	void enterTerm(@NotNull SimpleParser.TermContext ctx);
+	/**
+	 * Exit a parse tree produced by {@link SimpleParser#term}.
+	 * @param ctx the parse tree
+	 */
+	void exitTerm(@NotNull SimpleParser.TermContext ctx);
 	/**
 	 * Enter a parse tree produced by {@link SimpleParser#var_decl}.
 	 * @param ctx the parse tree

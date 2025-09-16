@@ -1,12 +1,14 @@
-program miprograma{
-	println 1;
-    var x;
-    x = 5 + 3 * 2;
-    println x;
-    
-    if (true) {
-        println 1;
+program mixto{
+    var a;
+    a = DIGITALROOT(55);
+    println a;                    
+    if (a > 5 && a < 8) {
+    	println false;
+        println a;
     } else {
-        println 0;
+        println false;
+        println a;
     }
-}
+    var r;
+    r = SIMULATEGAUSS(50, 10);
+    println r;

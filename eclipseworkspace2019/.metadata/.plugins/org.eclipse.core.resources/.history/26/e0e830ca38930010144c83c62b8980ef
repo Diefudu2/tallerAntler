@@ -1,0 +1,12 @@
+program miprograma{
+	println 1;
+    var x;
+    x = 5 + 3 * 2;
+    println x;
+    
+    if (true) {
+        println 1;
+    } else {
+        println 0;
+    }
+}

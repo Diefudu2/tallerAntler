@@ -57,7 +57,38 @@ conditional returns [ASTNode node]: IF PAR_OPEN expression PAR_CLOSE
         $node = new If($expression.node, body, null);
     });
 
-expression returns [ASTNode node]: 
+// --- EXPRESIONES ---
+
+expression returns [ASTNode node]
+    : t1=logicTerm {$node = $t1.node;}
+      (OR t2=logicTerm {$node = new LogicalOr($node, $t2.node);})*
+    ;
+
+logicTerm returns [ASTNode node]
+    : t1=logicFactor {$node = $t1.node;}
+      (AND t2=logicFactor {$node = new LogicalAnd($node, $t2.node);})*
+    ;
+
+logicFactor returns [ASTNode node]
+    : NOT lf=logicFactor {$node = new LogicalNot($lf.node);}
+    | t=relational {$node = $t.node;}
+    ;
+
+relational returns [ASTNode node]
+    : t1=arithExpr {$node = $t1.node;}
+      (
+        GT t2=arithExpr {$node = new GreaterThan($node, $t2.node);}
+      | LT t2=arithExpr {$node = new LessThan($node, $t2.node);}
+      | GEQ t2=arithExpr {$node = new GreaterEqual($node, $t2.node);}
+      | LEQ t2=arithExpr {$node = new LessEqual($node, $t2.node);}
+      | EQ t2=arithExpr {$node = new Equals($node, $t2.node);}
+      | NEQ t2=arithExpr {$node = new NotEquals($node, $t2.node);}
+      )*
+    ;
+
+// --- OPERACIONES ARITMÉTICAS ---
+
+arithExpr returns [ASTNode node]: 
     t1=term {$node = $t1.node;}
     ( (PLUS t2=term {$node = new Addition($node, $t2.node);})
     | (MINUS t2=term {$node = new Subtraction($node, $t2.node);})
@@ -74,7 +105,18 @@ factor returns [ASTNode node]:
     (EXP t2=exponent {$node = new Exponentiation($node, $t2.node);})*;
 
 exponent returns [ASTNode node]: 
-    primary {$node = $primary.node;};
+    t1=specialFunc {$node = $t1.node;}
+    | primary {$node = $primary.node;}
+    ;
+
+// --- FUNCIONES CREATIVAS Y PROBABILÍSTICAS ---
+
+specialFunc returns [ASTNode node]
+    : 'DIGITALROOT' PAR_OPEN e1=expression PAR_CLOSE
+      {$node = new DigitalRoot($e1.node);}
+    | 'SIMULATEGAUSS' PAR_OPEN e1=expression COMMA e2=expression PAR_CLOSE
+      {$node = new SimulateGauss($e1.node, $e2.node);}
+    ;
 
 primary returns [ASTNode node]: 
     NUMBER {$node = new Constant(Integer.parseInt($NUMBER.text));}
@@ -82,7 +124,8 @@ primary returns [ASTNode node]:
     | BOOLEAN {$node = new Constant(Boolean.parseBoolean($BOOLEAN.text));}
     | PAR_OPEN expression {$node = $expression.node;} PAR_CLOSE;
 
-// TOKENS (igual que antes)
+// --- TOKENS ---
+
 PROGRAM: 'program';
 VAR: 'var';
 PRINTLN: 'println';
@@ -108,6 +151,7 @@ BRACKET_CLOSE: '}';
 PAR_OPEN: '(';
 PAR_CLOSE: ')';
 SEMICOLON: ';';
+COMMA: ',';
 BOOLEAN: 'true' | 'false';
 ID: [a-zA-Z_][a-zA-Z0-9_]*;
 NUMBER: [0-9]+;

@@ -1,0 +1,20 @@
+package com.miorganizacion.simple.interprete.ast;
+import java.util.Map;
+
+public class DigitalRoot implements ASTNode {
+    private ASTNode n;
+    public DigitalRoot(ASTNode n) { this.n = n; }
+    @Override
+    public Object execute(Map<String, Object> symbolTable) {
+        int num = (Integer) n.execute(symbolTable);
+        while (num >= 10) {
+            int sum = 0;
+            while (num > 0) {
+                sum += num % 10;
+                num /= 10;
+            }
+            num = sum;
+        }
+        return num;
+    }
+}

@@ -1,0 +1,5 @@
+program raizdigital{
+    println DIGITALROOT(9875);     // 2  (9+8+7+5=29, 2+9=11, 1+1=2)
+    println DIGITALROOT(12345);    // 6  (1+2+3+4+5=15, 1+5=6)
+    println DIGITALROOT(9);        // 9
+}
