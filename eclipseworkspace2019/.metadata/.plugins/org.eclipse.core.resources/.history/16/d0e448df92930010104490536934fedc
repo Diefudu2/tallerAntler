@@ -1,0 +1,15 @@
+program miprograma{
+	var x;
+	
+	x=5;
+
+	println 6;
+	
+	println x+1;
+	
+	var y;
+	
+	y=x+x*x;
+	
+	println y;
+}

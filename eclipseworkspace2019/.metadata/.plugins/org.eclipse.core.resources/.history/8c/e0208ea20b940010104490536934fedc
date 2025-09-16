@@ -1,0 +1,11 @@
+program miprograma{
+    var x;
+    x = 5 + 3 * 2;
+    println x;
+    
+    if (x > 10) {
+        println "Mayor";
+    } else {
+        println "Menor";
+    }
+}

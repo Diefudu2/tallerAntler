@@ -1,0 +1,1028 @@
+!SESSION 2025-09-16 21:47:36.720 -----------------------------------------------
+eclipse.buildId=4.14.0.I20191210-0610
+java.version=11.0.28
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=es_CR
+Framework arguments:  -product org.eclipse.epp.package.dsl.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.dsl.product
+
+!ENTRY org.eclipse.egit.ui 2 0 2025-09-16 21:48:03.150
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\andre'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.epp.mpc.ui 1 0 2025-09-16 21:49:16.128
+!MESSAGE Performing Marketplace install request from https://marketplace.eclipse.org/marketplace-client-intro?mpc_install=2081415
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2025-09-16 21:49:18.599
+!MESSAGE Server returned lastModified <= 0 for https://raw.githubusercontent.com/antlr4ide/antlr4ide-eclipse-release/master/content.jar
+
+!ENTRY org.eclipse.epp.mpc.ui 1 0 2025-09-16 21:49:36.939
+!MESSAGE Performing Marketplace install request from https://marketplace.eclipse.org/marketplace-client-intro?mpc_install=2081415
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2025-09-16 21:49:37.318
+!MESSAGE Server returned lastModified <= 0 for https://raw.githubusercontent.com/antlr4ide/antlr4ide-eclipse-release/master/content.jar
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2025-09-16 21:49:45.284
+!MESSAGE Server returned lastModified <= 0 for https://raw.githubusercontent.com/antlr4ide/antlr4ide-eclipse-release/master/content.jar
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2025-09-16 21:49:48.344
+!MESSAGE Server returned lastModified <= 0 for https://raw.githubusercontent.com/antlr4ide/antlr4ide-eclipse-release/master/artifacts.jar
+!SESSION 2025-09-16 21:51:18.253 -----------------------------------------------
+eclipse.buildId=4.14.0.I20191210-0610
+java.version=11.0.28
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=es_CR
+Framework arguments:  -product org.eclipse.epp.package.dsl.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.dsl.product
+
+!ENTRY org.eclipse.egit.ui 2 0 2025-09-16 21:51:26.704
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\andre'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.ui 4 0 2025-09-16 21:51:47.728
+!MESSAGE Unhandled event loop exception
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.xtext.ui.preferences.OptionsConfigurationBlock.processChanges(OptionsConfigurationBlock.java:534)
+	at org.eclipse.xtext.ui.preferences.OptionsConfigurationBlock.performApply(OptionsConfigurationBlock.java:522)
+	at com.github.jknack.antlr4ide.ui.preferences.BuilderConfigurationBlock.performApply(BuilderConfigurationBlock.java:496)
+	at com.github.jknack.antlr4ide.ui.preferences.BuilderPreferencePage.performApply(BuilderPreferencePage.java:180)
+	at org.eclipse.jface.preference.PreferencePage.lambda$1(PreferencePage.java:289)
+	at org.eclipse.swt.events.SelectionListener$1.widgetSelected(SelectionListener.java:84)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:252)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4175)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1057)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:3988)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3587)
+	at org.eclipse.jface.window.Window.runEventLoop(Window.java:823)
+	at org.eclipse.jface.window.Window.open(Window.java:799)
+	at org.eclipse.ui.internal.OpenPreferencesAction.run(OpenPreferencesAction.java:66)
+	at org.eclipse.jface.action.Action.runWithEvent(Action.java:474)
+	at org.eclipse.jface.action.ActionContributionItem.handleWidgetSelection(ActionContributionItem.java:579)
+	at org.eclipse.jface.action.ActionContributionItem.lambda$4(ActionContributionItem.java:413)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4175)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1057)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:3988)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3587)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1160)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1049)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:660)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:559)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:154)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:150)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:137)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:107)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:401)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:657)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:594)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1465)
+
+!ENTRY org.eclipse.ui 4 0 2025-09-16 21:51:48.618
+!MESSAGE Unhandled event loop exception
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.xtext.ui.preferences.OptionsConfigurationBlock.processChanges(OptionsConfigurationBlock.java:534)
+	at org.eclipse.xtext.ui.preferences.OptionsConfigurationBlock.performApply(OptionsConfigurationBlock.java:522)
+	at com.github.jknack.antlr4ide.ui.preferences.BuilderConfigurationBlock.performApply(BuilderConfigurationBlock.java:496)
+	at com.github.jknack.antlr4ide.ui.preferences.BuilderPreferencePage.performApply(BuilderPreferencePage.java:180)
+	at org.eclipse.jface.preference.PreferencePage.lambda$1(PreferencePage.java:289)
+	at org.eclipse.swt.events.SelectionListener$1.widgetSelected(SelectionListener.java:84)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:252)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4175)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1057)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:3988)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3587)
+	at org.eclipse.jface.window.Window.runEventLoop(Window.java:823)
+	at org.eclipse.jface.window.Window.open(Window.java:799)
+	at org.eclipse.ui.internal.OpenPreferencesAction.run(OpenPreferencesAction.java:66)
+	at org.eclipse.jface.action.Action.runWithEvent(Action.java:474)
+	at org.eclipse.jface.action.ActionContributionItem.handleWidgetSelection(ActionContributionItem.java:579)
+	at org.eclipse.jface.action.ActionContributionItem.lambda$4(ActionContributionItem.java:413)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4175)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1057)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:3988)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3587)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1160)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1049)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:660)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:559)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:154)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:150)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:137)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:107)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:401)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:657)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:594)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1465)
+
+!ENTRY org.eclipse.ui 4 0 2025-09-16 21:51:49.156
+!MESSAGE Unhandled event loop exception
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.xtext.ui.preferences.OptionsConfigurationBlock.processChanges(OptionsConfigurationBlock.java:534)
+	at org.eclipse.xtext.ui.preferences.OptionsConfigurationBlock.performApply(OptionsConfigurationBlock.java:522)
+	at com.github.jknack.antlr4ide.ui.preferences.BuilderConfigurationBlock.performApply(BuilderConfigurationBlock.java:496)
+	at com.github.jknack.antlr4ide.ui.preferences.BuilderPreferencePage.performApply(BuilderPreferencePage.java:180)
+	at org.eclipse.jface.preference.PreferencePage.lambda$1(PreferencePage.java:289)
+	at org.eclipse.swt.events.SelectionListener$1.widgetSelected(SelectionListener.java:84)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:252)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4175)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1057)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:3988)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3587)
+	at org.eclipse.jface.window.Window.runEventLoop(Window.java:823)
+	at org.eclipse.jface.window.Window.open(Window.java:799)
+	at org.eclipse.ui.internal.OpenPreferencesAction.run(OpenPreferencesAction.java:66)
+	at org.eclipse.jface.action.Action.runWithEvent(Action.java:474)
+	at org.eclipse.jface.action.ActionContributionItem.handleWidgetSelection(ActionContributionItem.java:579)
+	at org.eclipse.jface.action.ActionContributionItem.lambda$4(ActionContributionItem.java:413)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4175)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1057)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:3988)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3587)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1160)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1049)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:660)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:559)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:154)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:150)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:137)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:107)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:401)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:657)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:594)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1465)
+
+!ENTRY org.eclipse.ui 4 0 2025-09-16 21:51:50.604
+!MESSAGE Unhandled event loop exception
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.xtext.ui.preferences.OptionsConfigurationBlock.processChanges(OptionsConfigurationBlock.java:534)
+	at org.eclipse.xtext.ui.preferences.OptionsConfigurationBlock.performApply(OptionsConfigurationBlock.java:522)
+	at com.github.jknack.antlr4ide.ui.preferences.BuilderConfigurationBlock.performApply(BuilderConfigurationBlock.java:496)
+	at com.github.jknack.antlr4ide.ui.preferences.BuilderPreferencePage.performApply(BuilderPreferencePage.java:180)
+	at org.eclipse.jface.preference.PreferencePage.lambda$1(PreferencePage.java:289)
+	at org.eclipse.swt.events.SelectionListener$1.widgetSelected(SelectionListener.java:84)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:252)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4175)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1057)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:3988)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3587)
+	at org.eclipse.jface.window.Window.runEventLoop(Window.java:823)
+	at org.eclipse.jface.window.Window.open(Window.java:799)
+	at org.eclipse.ui.internal.OpenPreferencesAction.run(OpenPreferencesAction.java:66)
+	at org.eclipse.jface.action.Action.runWithEvent(Action.java:474)
+	at org.eclipse.jface.action.ActionContributionItem.handleWidgetSelection(ActionContributionItem.java:579)
+	at org.eclipse.jface.action.ActionContributionItem.lambda$4(ActionContributionItem.java:413)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4175)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1057)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:3988)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3587)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1160)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1049)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:660)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:559)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:154)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:150)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:137)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:107)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:401)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:657)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:594)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1465)
+
+!ENTRY org.eclipse.jface 4 0 2025-09-16 21:51:51.161
+!MESSAGE java.lang.NullPointerException
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.xtext.ui.preferences.OptionsConfigurationBlock.processChanges(OptionsConfigurationBlock.java:534)
+	at org.eclipse.xtext.ui.preferences.OptionsConfigurationBlock.performOk(OptionsConfigurationBlock.java:518)
+	at com.github.jknack.antlr4ide.ui.preferences.BuilderConfigurationBlock.performOk(BuilderConfigurationBlock.java:505)
+	at com.github.jknack.antlr4ide.ui.preferences.BuilderPreferencePage.performOk(BuilderPreferencePage.java:167)
+	at org.eclipse.jface.preference.PreferenceDialog$7.run(PreferenceDialog.java:906)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.ui.internal.JFaceUtil.lambda$0(JFaceUtil.java:47)
+	at org.eclipse.jface.util.SafeRunnable.run(SafeRunnable.java:174)
+	at org.eclipse.jface.preference.PreferenceDialog.okPressed(PreferenceDialog.java:890)
+	at org.eclipse.ui.internal.dialogs.FilteredPreferenceDialog.okPressed(FilteredPreferenceDialog.java:461)
+	at org.eclipse.jface.preference.PreferenceDialog.buttonPressed(PreferenceDialog.java:233)
+	at org.eclipse.jface.dialogs.Dialog.lambda$0(Dialog.java:619)
+	at org.eclipse.swt.events.SelectionListener$1.widgetSelected(SelectionListener.java:84)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:252)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4175)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1057)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:3988)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3587)
+	at org.eclipse.jface.window.Window.runEventLoop(Window.java:823)
+	at org.eclipse.jface.window.Window.open(Window.java:799)
+	at org.eclipse.ui.internal.OpenPreferencesAction.run(OpenPreferencesAction.java:66)
+	at org.eclipse.jface.action.Action.runWithEvent(Action.java:474)
+	at org.eclipse.jface.action.ActionContributionItem.handleWidgetSelection(ActionContributionItem.java:579)
+	at org.eclipse.jface.action.ActionContributionItem.lambda$4(ActionContributionItem.java:413)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4175)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1057)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:3988)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3587)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1160)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1049)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:660)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:559)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:154)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:150)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:137)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:107)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:401)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:657)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:594)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1465)
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-09-16 22:42:23.631
+!MESSAGE warning(125): com\miorganizacion\simple\interprete\Simple.g4:5:1: implicit definition of token HELLO in parser
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-09-16 22:42:23.632
+!MESSAGE warning(125): com\miorganizacion\simple\interprete\Simple.g4:5:7: implicit definition of token WORLD in parser
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-09-16 22:54:39.623
+!MESSAGE warning(125): com\miorganizacion\simple\interprete\Simple.g4:3:7: implicit definition of token HELLO in parser
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-09-16 22:54:39.624
+!MESSAGE warning(125): com\miorganizacion\simple\interprete\Simple.g4:3:13: implicit definition of token WORLD in parser
+
+!ENTRY org.eclipse.ui 4 0 2025-09-17 00:50:06.069
+!MESSAGE Unhandled event loop exception
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.xtext.ui.preferences.OptionsConfigurationBlock.processChanges(OptionsConfigurationBlock.java:534)
+	at org.eclipse.xtext.ui.preferences.OptionsConfigurationBlock.performApply(OptionsConfigurationBlock.java:522)
+	at com.github.jknack.antlr4ide.ui.preferences.BuilderConfigurationBlock.performApply(BuilderConfigurationBlock.java:496)
+	at com.github.jknack.antlr4ide.ui.preferences.BuilderPreferencePage.performApply(BuilderPreferencePage.java:180)
+	at org.eclipse.jface.preference.PreferencePage.lambda$1(PreferencePage.java:289)
+	at org.eclipse.swt.events.SelectionListener$1.widgetSelected(SelectionListener.java:84)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:252)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4175)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1057)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:3988)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3587)
+	at org.eclipse.jface.window.Window.runEventLoop(Window.java:823)
+	at org.eclipse.jface.window.Window.open(Window.java:799)
+	at org.eclipse.ui.internal.OpenPreferencesAction.run(OpenPreferencesAction.java:66)
+	at org.eclipse.jface.action.Action.runWithEvent(Action.java:474)
+	at org.eclipse.jface.action.ActionContributionItem.handleWidgetSelection(ActionContributionItem.java:579)
+	at org.eclipse.jface.action.ActionContributionItem.lambda$4(ActionContributionItem.java:413)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4175)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1057)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:3988)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3587)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1160)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1049)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:660)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:559)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:154)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:150)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:137)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:107)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:401)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:657)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:594)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1465)
+
+!ENTRY org.eclipse.ui 4 0 2025-09-17 00:50:28.699
+!MESSAGE Unhandled event loop exception
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.xtext.ui.preferences.OptionsConfigurationBlock.processChanges(OptionsConfigurationBlock.java:534)
+	at org.eclipse.xtext.ui.preferences.OptionsConfigurationBlock.performApply(OptionsConfigurationBlock.java:522)
+	at com.github.jknack.antlr4ide.ui.preferences.BuilderConfigurationBlock.performApply(BuilderConfigurationBlock.java:496)
+	at com.github.jknack.antlr4ide.ui.preferences.BuilderPreferencePage.performApply(BuilderPreferencePage.java:180)
+	at org.eclipse.jface.preference.PreferencePage.lambda$1(PreferencePage.java:289)
+	at org.eclipse.swt.events.SelectionListener$1.widgetSelected(SelectionListener.java:84)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:252)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4175)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1057)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:3988)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3587)
+	at org.eclipse.jface.window.Window.runEventLoop(Window.java:823)
+	at org.eclipse.jface.window.Window.open(Window.java:799)
+	at org.eclipse.ui.internal.OpenPreferencesAction.run(OpenPreferencesAction.java:66)
+	at org.eclipse.jface.action.Action.runWithEvent(Action.java:474)
+	at org.eclipse.jface.action.ActionContributionItem.handleWidgetSelection(ActionContributionItem.java:579)
+	at org.eclipse.jface.action.ActionContributionItem.lambda$4(ActionContributionItem.java:413)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4175)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1057)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:3988)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3587)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1160)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1049)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:660)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:559)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:154)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:150)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:137)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:107)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:401)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:657)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:594)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1465)
+
+!ENTRY org.eclipse.jface 4 0 2025-09-17 00:50:29.621
+!MESSAGE java.lang.NullPointerException
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.xtext.ui.preferences.OptionsConfigurationBlock.processChanges(OptionsConfigurationBlock.java:534)
+	at org.eclipse.xtext.ui.preferences.OptionsConfigurationBlock.performOk(OptionsConfigurationBlock.java:518)
+	at com.github.jknack.antlr4ide.ui.preferences.BuilderConfigurationBlock.performOk(BuilderConfigurationBlock.java:505)
+	at com.github.jknack.antlr4ide.ui.preferences.BuilderPreferencePage.performOk(BuilderPreferencePage.java:167)
+	at org.eclipse.jface.preference.PreferenceDialog$7.run(PreferenceDialog.java:906)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.ui.internal.JFaceUtil.lambda$0(JFaceUtil.java:47)
+	at org.eclipse.jface.util.SafeRunnable.run(SafeRunnable.java:174)
+	at org.eclipse.jface.preference.PreferenceDialog.okPressed(PreferenceDialog.java:890)
+	at org.eclipse.ui.internal.dialogs.FilteredPreferenceDialog.okPressed(FilteredPreferenceDialog.java:461)
+	at org.eclipse.jface.preference.PreferenceDialog.buttonPressed(PreferenceDialog.java:233)
+	at org.eclipse.jface.dialogs.Dialog.lambda$0(Dialog.java:619)
+	at org.eclipse.swt.events.SelectionListener$1.widgetSelected(SelectionListener.java:84)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:252)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4175)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1057)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:3988)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3587)
+	at org.eclipse.jface.window.Window.runEventLoop(Window.java:823)
+	at org.eclipse.jface.window.Window.open(Window.java:799)
+	at org.eclipse.ui.internal.OpenPreferencesAction.run(OpenPreferencesAction.java:66)
+	at org.eclipse.jface.action.Action.runWithEvent(Action.java:474)
+	at org.eclipse.jface.action.ActionContributionItem.handleWidgetSelection(ActionContributionItem.java:579)
+	at org.eclipse.jface.action.ActionContributionItem.lambda$4(ActionContributionItem.java:413)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4175)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1057)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:3988)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3587)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1160)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1049)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:660)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:559)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:154)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:150)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:137)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:107)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:401)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:657)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:594)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1465)
+
+!ENTRY org.eclipse.jface 4 0 2025-09-17 01:09:33.727
+!MESSAGE java.lang.NullPointerException
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.xtext.ui.preferences.OptionsConfigurationBlock.processChanges(OptionsConfigurationBlock.java:534)
+	at org.eclipse.xtext.ui.preferences.OptionsConfigurationBlock.performOk(OptionsConfigurationBlock.java:518)
+	at com.github.jknack.antlr4ide.ui.preferences.BuilderConfigurationBlock.performOk(BuilderConfigurationBlock.java:505)
+	at com.github.jknack.antlr4ide.ui.preferences.BuilderPreferencePage.performOk(BuilderPreferencePage.java:167)
+	at org.eclipse.jface.preference.PreferenceDialog$7.run(PreferenceDialog.java:906)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.ui.internal.JFaceUtil.lambda$0(JFaceUtil.java:47)
+	at org.eclipse.jface.util.SafeRunnable.run(SafeRunnable.java:174)
+	at org.eclipse.jface.preference.PreferenceDialog.okPressed(PreferenceDialog.java:890)
+	at org.eclipse.ui.internal.dialogs.FilteredPreferenceDialog.okPressed(FilteredPreferenceDialog.java:461)
+	at org.eclipse.jface.preference.PreferenceDialog.buttonPressed(PreferenceDialog.java:233)
+	at org.eclipse.jface.dialogs.Dialog.lambda$0(Dialog.java:619)
+	at org.eclipse.swt.events.SelectionListener$1.widgetSelected(SelectionListener.java:84)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:252)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4175)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1057)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:3988)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3587)
+	at org.eclipse.jface.window.Window.runEventLoop(Window.java:823)
+	at org.eclipse.jface.window.Window.open(Window.java:799)
+	at org.eclipse.ui.internal.OpenPreferencesAction.run(OpenPreferencesAction.java:66)
+	at org.eclipse.jface.action.Action.runWithEvent(Action.java:474)
+	at org.eclipse.jface.action.ActionContributionItem.handleWidgetSelection(ActionContributionItem.java:579)
+	at org.eclipse.jface.action.ActionContributionItem.lambda$4(ActionContributionItem.java:413)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4175)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1057)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:3988)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3587)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1160)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1049)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:660)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:559)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:154)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:150)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:137)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:107)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:401)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:657)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:594)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1465)
+
+!ENTRY org.eclipse.jface 4 0 2025-09-17 01:30:58.051
+!MESSAGE java.lang.NullPointerException
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.xtext.ui.preferences.OptionsConfigurationBlock.processChanges(OptionsConfigurationBlock.java:534)
+	at org.eclipse.xtext.ui.preferences.OptionsConfigurationBlock.performOk(OptionsConfigurationBlock.java:518)
+	at com.github.jknack.antlr4ide.ui.preferences.BuilderConfigurationBlock.performOk(BuilderConfigurationBlock.java:505)
+	at com.github.jknack.antlr4ide.ui.preferences.BuilderPreferencePage.performOk(BuilderPreferencePage.java:167)
+	at org.eclipse.jface.preference.PreferenceDialog$7.run(PreferenceDialog.java:906)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.ui.internal.JFaceUtil.lambda$0(JFaceUtil.java:47)
+	at org.eclipse.jface.util.SafeRunnable.run(SafeRunnable.java:174)
+	at org.eclipse.jface.preference.PreferenceDialog.okPressed(PreferenceDialog.java:890)
+	at org.eclipse.ui.internal.dialogs.FilteredPreferenceDialog.okPressed(FilteredPreferenceDialog.java:461)
+	at org.eclipse.jface.preference.PreferenceDialog.buttonPressed(PreferenceDialog.java:233)
+	at org.eclipse.jface.dialogs.Dialog.lambda$0(Dialog.java:619)
+	at org.eclipse.swt.events.SelectionListener$1.widgetSelected(SelectionListener.java:84)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:252)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4175)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1057)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:3988)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3587)
+	at org.eclipse.jface.window.Window.runEventLoop(Window.java:823)
+	at org.eclipse.jface.window.Window.open(Window.java:799)
+	at org.eclipse.ui.dialogs.PropertyDialogAction.run(PropertyDialogAction.java:153)
+	at org.eclipse.ui.internal.ide.actions.ProjectPropertyDialogAction.run(ProjectPropertyDialogAction.java:81)
+	at org.eclipse.jface.action.Action.runWithEvent(Action.java:474)
+	at org.eclipse.jface.action.ActionContributionItem.handleWidgetSelection(ActionContributionItem.java:579)
+	at org.eclipse.jface.action.ActionContributionItem.lambda$4(ActionContributionItem.java:413)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4175)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1057)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:3988)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3587)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1160)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1049)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:660)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:559)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:154)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:150)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:137)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:107)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:401)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:657)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:594)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1465)
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-09-17 01:42:21.682
+!MESSAGE Unknown or unsupported source locator org.eclipse.jdt.internal.launching.sourcelookup.advanced.AdvancedSourceLookupDirector
+
+!ENTRY org.apache.log4j 4 0 2025-09-17 02:08:06.565
+!MESSAGE org.eclipse.xtext.ui.editor.model.XtextDocument  - Error in IXtextModelListener
+
+!STACK 0
+java.lang.IllegalArgumentException: Unhandled parameter types: [null]
+	at com.github.jknack.antlr4ide.ui.railroad.trafo.Antlr4RailroadTransformer.toFigure(Antlr4RailroadTransformer.java:443)
+	at com.github.jknack.antlr4ide.ui.railroad.trafo.Antlr4RailroadTransformer._toFigure(Antlr4RailroadTransformer.java:327)
+	at com.github.jknack.antlr4ide.ui.railroad.trafo.Antlr4RailroadTransformer.toFigure(Antlr4RailroadTransformer.java:421)
+	at com.github.jknack.antlr4ide.ui.railroad.trafo.Antlr4RailroadTransformer.transform(Antlr4RailroadTransformer.java:63)
+	at com.github.jknack.antlr4ide.ui.railroad.trafo.Antlr4RailroadTransformer.children(Antlr4RailroadTransformer.java:367)
+	at com.github.jknack.antlr4ide.ui.railroad.trafo.Antlr4RailroadTransformer._toFigure(Antlr4RailroadTransformer.java:319)
+	at com.github.jknack.antlr4ide.ui.railroad.trafo.Antlr4RailroadTransformer.toFigure(Antlr4RailroadTransformer.java:423)
+	at com.github.jknack.antlr4ide.ui.railroad.trafo.Antlr4RailroadTransformer._toFigure(Antlr4RailroadTransformer.java:314)
+	at com.github.jknack.antlr4ide.ui.railroad.trafo.Antlr4RailroadTransformer.toFigure(Antlr4RailroadTransformer.java:411)
+	at com.github.jknack.antlr4ide.ui.railroad.trafo.Antlr4RailroadTransformer.transform(Antlr4RailroadTransformer.java:63)
+	at com.github.jknack.antlr4ide.ui.railroad.trafo.Antlr4RailroadTransformer.children(Antlr4RailroadTransformer.java:367)
+	at com.github.jknack.antlr4ide.ui.railroad.trafo.Antlr4RailroadTransformer._toFigure(Antlr4RailroadTransformer.java:308)
+	at com.github.jknack.antlr4ide.ui.railroad.trafo.Antlr4RailroadTransformer.toFigure(Antlr4RailroadTransformer.java:413)
+	at com.github.jknack.antlr4ide.ui.railroad.trafo.Antlr4RailroadTransformer._toFigure(Antlr4RailroadTransformer.java:303)
+	at com.github.jknack.antlr4ide.ui.railroad.trafo.Antlr4RailroadTransformer.toFigure(Antlr4RailroadTransformer.java:425)
+	at com.github.jknack.antlr4ide.ui.railroad.trafo.Antlr4RailroadTransformer._toFigure(Antlr4RailroadTransformer.java:296)
+	at com.github.jknack.antlr4ide.ui.railroad.trafo.Antlr4RailroadTransformer.toFigure(Antlr4RailroadTransformer.java:379)
+	at com.github.jknack.antlr4ide.ui.railroad.trafo.Antlr4RailroadTransformer.transform(Antlr4RailroadTransformer.java:63)
+	at com.github.jknack.antlr4ide.ui.railroad.trafo.Antlr4RailroadTransformer.children(Antlr4RailroadTransformer.java:367)
+	at com.github.jknack.antlr4ide.ui.railroad.trafo.Antlr4RailroadTransformer._toFigure(Antlr4RailroadTransformer.java:80)
+	at com.github.jknack.antlr4ide.ui.railroad.trafo.Antlr4RailroadTransformer.toFigure(Antlr4RailroadTransformer.java:403)
+	at com.github.jknack.antlr4ide.ui.railroad.trafo.Antlr4RailroadTransformer.transform(Antlr4RailroadTransformer.java:63)
+	at com.github.jknack.antlr4ide.ui.railroad.RailroadSynchronizer.createFigure(RailroadSynchronizer.java:93)
+	at com.github.jknack.antlr4ide.ui.railroad.RailroadSynchronizer.modelChanged(RailroadSynchronizer.java:124)
+	at org.eclipse.xtext.ui.editor.model.XtextDocument.notifyModelListeners(XtextDocument.java:219)
+	at org.eclipse.xtext.ui.editor.model.XtextDocument$XtextDocumentLocker.lambda$1(XtextDocument.java:572)
+	at org.eclipse.xtext.util.concurrent.IReadAccess.lambda$tryReadOnly$0(IReadAccess.java:56)
+	at org.eclipse.xtext.resource.OutdatedStateManager.exec(OutdatedStateManager.java:91)
+	at org.eclipse.xtext.ui.editor.model.XtextDocument$XtextDocumentLocker.internalReadOnly(XtextDocument.java:524)
+	at org.eclipse.xtext.ui.editor.model.XtextDocument$XtextDocumentLocker.readOnly(XtextDocument.java:496)
+	at org.eclipse.xtext.ui.editor.model.XtextDocument.readOnly(XtextDocument.java:135)
+	at org.eclipse.xtext.util.concurrent.IReadAccess.tryReadOnly(IReadAccess.java:52)
+	at org.eclipse.xtext.util.concurrent.IReadAccess.tryReadOnly(IReadAccess.java:70)
+	at org.eclipse.xtext.ui.editor.model.XtextDocument$XtextDocumentLocker.lambda$0(XtextDocument.java:571)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:40)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:185)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:3963)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3590)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1160)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1049)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:660)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:559)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:154)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:150)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:137)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:107)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:401)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:657)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:594)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1465)
+
+!ENTRY org.apache.log4j 4 0 2025-09-17 02:08:09.302
+!MESSAGE org.eclipse.xtext.ui.editor.model.XtextDocument  - Error in IXtextModelListener
+
+!STACK 0
+java.lang.IllegalArgumentException: Unhandled parameter types: [null]
+	at com.github.jknack.antlr4ide.ui.railroad.trafo.Antlr4RailroadTransformer.toFigure(Antlr4RailroadTransformer.java:443)
+	at com.github.jknack.antlr4ide.ui.railroad.trafo.Antlr4RailroadTransformer._toFigure(Antlr4RailroadTransformer.java:327)
+	at com.github.jknack.antlr4ide.ui.railroad.trafo.Antlr4RailroadTransformer.toFigure(Antlr4RailroadTransformer.java:421)
+	at com.github.jknack.antlr4ide.ui.railroad.trafo.Antlr4RailroadTransformer.transform(Antlr4RailroadTransformer.java:63)
+	at com.github.jknack.antlr4ide.ui.railroad.trafo.Antlr4RailroadTransformer.children(Antlr4RailroadTransformer.java:367)
+	at com.github.jknack.antlr4ide.ui.railroad.trafo.Antlr4RailroadTransformer._toFigure(Antlr4RailroadTransformer.java:319)
+	at com.github.jknack.antlr4ide.ui.railroad.trafo.Antlr4RailroadTransformer.toFigure(Antlr4RailroadTransformer.java:423)
+	at com.github.jknack.antlr4ide.ui.railroad.trafo.Antlr4RailroadTransformer._toFigure(Antlr4RailroadTransformer.java:314)
+	at com.github.jknack.antlr4ide.ui.railroad.trafo.Antlr4RailroadTransformer.toFigure(Antlr4RailroadTransformer.java:411)
+	at com.github.jknack.antlr4ide.ui.railroad.trafo.Antlr4RailroadTransformer.transform(Antlr4RailroadTransformer.java:63)
+	at com.github.jknack.antlr4ide.ui.railroad.trafo.Antlr4RailroadTransformer.children(Antlr4RailroadTransformer.java:367)
+	at com.github.jknack.antlr4ide.ui.railroad.trafo.Antlr4RailroadTransformer._toFigure(Antlr4RailroadTransformer.java:308)
+	at com.github.jknack.antlr4ide.ui.railroad.trafo.Antlr4RailroadTransformer.toFigure(Antlr4RailroadTransformer.java:413)
+	at com.github.jknack.antlr4ide.ui.railroad.trafo.Antlr4RailroadTransformer._toFigure(Antlr4RailroadTransformer.java:303)
+	at com.github.jknack.antlr4ide.ui.railroad.trafo.Antlr4RailroadTransformer.toFigure(Antlr4RailroadTransformer.java:425)
+	at com.github.jknack.antlr4ide.ui.railroad.trafo.Antlr4RailroadTransformer._toFigure(Antlr4RailroadTransformer.java:296)
+	at com.github.jknack.antlr4ide.ui.railroad.trafo.Antlr4RailroadTransformer.toFigure(Antlr4RailroadTransformer.java:379)
+	at com.github.jknack.antlr4ide.ui.railroad.trafo.Antlr4RailroadTransformer.transform(Antlr4RailroadTransformer.java:63)
+	at com.github.jknack.antlr4ide.ui.railroad.trafo.Antlr4RailroadTransformer.children(Antlr4RailroadTransformer.java:367)
+	at com.github.jknack.antlr4ide.ui.railroad.trafo.Antlr4RailroadTransformer._toFigure(Antlr4RailroadTransformer.java:80)
+	at com.github.jknack.antlr4ide.ui.railroad.trafo.Antlr4RailroadTransformer.toFigure(Antlr4RailroadTransformer.java:403)
+	at com.github.jknack.antlr4ide.ui.railroad.trafo.Antlr4RailroadTransformer.transform(Antlr4RailroadTransformer.java:63)
+	at com.github.jknack.antlr4ide.ui.railroad.RailroadSynchronizer.createFigure(RailroadSynchronizer.java:93)
+	at com.github.jknack.antlr4ide.ui.railroad.RailroadSynchronizer.modelChanged(RailroadSynchronizer.java:124)
+	at org.eclipse.xtext.ui.editor.model.XtextDocument.notifyModelListeners(XtextDocument.java:219)
+	at org.eclipse.xtext.ui.editor.model.XtextDocument$XtextDocumentLocker.lambda$1(XtextDocument.java:572)
+	at org.eclipse.xtext.util.concurrent.IReadAccess.lambda$tryReadOnly$0(IReadAccess.java:56)
+	at org.eclipse.xtext.resource.OutdatedStateManager.exec(OutdatedStateManager.java:91)
+	at org.eclipse.xtext.ui.editor.model.XtextDocument$XtextDocumentLocker.internalReadOnly(XtextDocument.java:524)
+	at org.eclipse.xtext.ui.editor.model.XtextDocument$XtextDocumentLocker.readOnly(XtextDocument.java:496)
+	at org.eclipse.xtext.ui.editor.model.XtextDocument.readOnly(XtextDocument.java:135)
+	at org.eclipse.xtext.util.concurrent.IReadAccess.tryReadOnly(IReadAccess.java:52)
+	at org.eclipse.xtext.util.concurrent.IReadAccess.tryReadOnly(IReadAccess.java:70)
+	at org.eclipse.xtext.ui.editor.model.XtextDocument$XtextDocumentLocker.lambda$0(XtextDocument.java:571)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:40)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:185)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:3963)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3590)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1160)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1049)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:660)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:559)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:154)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:150)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:137)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:107)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:401)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:657)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:594)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1465)
+
+!ENTRY org.apache.log4j 4 0 2025-09-17 02:08:09.308
+!MESSAGE org.eclipse.xtext.ui.editor.model.XtextDocument  - Error in IXtextModelListener
+
+!STACK 0
+java.lang.IllegalArgumentException: Unhandled parameter types: [null]
+	at com.github.jknack.antlr4ide.ui.railroad.trafo.Antlr4RailroadTransformer.toFigure(Antlr4RailroadTransformer.java:443)
+	at com.github.jknack.antlr4ide.ui.railroad.trafo.Antlr4RailroadTransformer._toFigure(Antlr4RailroadTransformer.java:327)
+	at com.github.jknack.antlr4ide.ui.railroad.trafo.Antlr4RailroadTransformer.toFigure(Antlr4RailroadTransformer.java:421)
+	at com.github.jknack.antlr4ide.ui.railroad.trafo.Antlr4RailroadTransformer.transform(Antlr4RailroadTransformer.java:63)
+	at com.github.jknack.antlr4ide.ui.railroad.trafo.Antlr4RailroadTransformer.children(Antlr4RailroadTransformer.java:367)
+	at com.github.jknack.antlr4ide.ui.railroad.trafo.Antlr4RailroadTransformer._toFigure(Antlr4RailroadTransformer.java:319)
+	at com.github.jknack.antlr4ide.ui.railroad.trafo.Antlr4RailroadTransformer.toFigure(Antlr4RailroadTransformer.java:423)
+	at com.github.jknack.antlr4ide.ui.railroad.trafo.Antlr4RailroadTransformer._toFigure(Antlr4RailroadTransformer.java:314)
+	at com.github.jknack.antlr4ide.ui.railroad.trafo.Antlr4RailroadTransformer.toFigure(Antlr4RailroadTransformer.java:411)
+	at com.github.jknack.antlr4ide.ui.railroad.trafo.Antlr4RailroadTransformer.transform(Antlr4RailroadTransformer.java:63)
+	at com.github.jknack.antlr4ide.ui.railroad.trafo.Antlr4RailroadTransformer.children(Antlr4RailroadTransformer.java:367)
+	at com.github.jknack.antlr4ide.ui.railroad.trafo.Antlr4RailroadTransformer._toFigure(Antlr4RailroadTransformer.java:308)
+	at com.github.jknack.antlr4ide.ui.railroad.trafo.Antlr4RailroadTransformer.toFigure(Antlr4RailroadTransformer.java:413)
+	at com.github.jknack.antlr4ide.ui.railroad.trafo.Antlr4RailroadTransformer._toFigure(Antlr4RailroadTransformer.java:303)
+	at com.github.jknack.antlr4ide.ui.railroad.trafo.Antlr4RailroadTransformer.toFigure(Antlr4RailroadTransformer.java:425)
+	at com.github.jknack.antlr4ide.ui.railroad.trafo.Antlr4RailroadTransformer._toFigure(Antlr4RailroadTransformer.java:296)
+	at com.github.jknack.antlr4ide.ui.railroad.trafo.Antlr4RailroadTransformer.toFigure(Antlr4RailroadTransformer.java:379)
+	at com.github.jknack.antlr4ide.ui.railroad.trafo.Antlr4RailroadTransformer.transform(Antlr4RailroadTransformer.java:63)
+	at com.github.jknack.antlr4ide.ui.railroad.trafo.Antlr4RailroadTransformer.children(Antlr4RailroadTransformer.java:367)
+	at com.github.jknack.antlr4ide.ui.railroad.trafo.Antlr4RailroadTransformer._toFigure(Antlr4RailroadTransformer.java:80)
+	at com.github.jknack.antlr4ide.ui.railroad.trafo.Antlr4RailroadTransformer.toFigure(Antlr4RailroadTransformer.java:403)
+	at com.github.jknack.antlr4ide.ui.railroad.trafo.Antlr4RailroadTransformer.transform(Antlr4RailroadTransformer.java:63)
+	at com.github.jknack.antlr4ide.ui.railroad.RailroadSynchronizer.createFigure(RailroadSynchronizer.java:93)
+	at com.github.jknack.antlr4ide.ui.railroad.RailroadSynchronizer.modelChanged(RailroadSynchronizer.java:124)
+	at org.eclipse.xtext.ui.editor.model.XtextDocument.notifyModelListeners(XtextDocument.java:219)
+	at org.eclipse.xtext.ui.editor.model.XtextDocument$XtextDocumentLocker.notifyModelListenersOnUiThread(XtextDocument.java:568)
+	at org.eclipse.xtext.ui.editor.model.XtextDocument$XtextDocumentLocker.internalReadOnly(XtextDocument.java:541)
+	at org.eclipse.xtext.ui.editor.model.XtextDocument$XtextDocumentLocker.readOnly(XtextDocument.java:496)
+	at org.eclipse.xtext.ui.editor.model.XtextDocument.readOnly(XtextDocument.java:135)
+	at org.eclipse.xtext.util.concurrent.IReadAccess.tryReadOnly(IReadAccess.java:52)
+	at org.eclipse.xtext.util.concurrent.IReadAccess.tryReadOnly(IReadAccess.java:70)
+	at org.eclipse.xtext.ui.editor.model.XtextDocument$XtextDocumentLocker.lambda$0(XtextDocument.java:571)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:40)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:185)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:3963)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3590)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1160)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1049)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:660)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:559)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:154)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:150)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:137)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:107)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:401)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:657)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:594)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1465)
+
+!ENTRY org.apache.log4j 4 0 2025-09-17 02:08:10.060
+!MESSAGE org.eclipse.xtext.ui.editor.model.XtextDocument  - Error in IXtextModelListener
+
+!STACK 0
+java.lang.IllegalArgumentException: Unhandled parameter types: [null]
+	at com.github.jknack.antlr4ide.ui.railroad.trafo.Antlr4RailroadTransformer.toFigure(Antlr4RailroadTransformer.java:443)
+	at com.github.jknack.antlr4ide.ui.railroad.trafo.Antlr4RailroadTransformer._toFigure(Antlr4RailroadTransformer.java:327)
+	at com.github.jknack.antlr4ide.ui.railroad.trafo.Antlr4RailroadTransformer.toFigure(Antlr4RailroadTransformer.java:421)
+	at com.github.jknack.antlr4ide.ui.railroad.trafo.Antlr4RailroadTransformer.transform(Antlr4RailroadTransformer.java:63)
+	at com.github.jknack.antlr4ide.ui.railroad.trafo.Antlr4RailroadTransformer.children(Antlr4RailroadTransformer.java:367)
+	at com.github.jknack.antlr4ide.ui.railroad.trafo.Antlr4RailroadTransformer._toFigure(Antlr4RailroadTransformer.java:319)
+	at com.github.jknack.antlr4ide.ui.railroad.trafo.Antlr4RailroadTransformer.toFigure(Antlr4RailroadTransformer.java:423)
+	at com.github.jknack.antlr4ide.ui.railroad.trafo.Antlr4RailroadTransformer._toFigure(Antlr4RailroadTransformer.java:314)
+	at com.github.jknack.antlr4ide.ui.railroad.trafo.Antlr4RailroadTransformer.toFigure(Antlr4RailroadTransformer.java:411)
+	at com.github.jknack.antlr4ide.ui.railroad.trafo.Antlr4RailroadTransformer.transform(Antlr4RailroadTransformer.java:63)
+	at com.github.jknack.antlr4ide.ui.railroad.trafo.Antlr4RailroadTransformer.children(Antlr4RailroadTransformer.java:367)
+	at com.github.jknack.antlr4ide.ui.railroad.trafo.Antlr4RailroadTransformer._toFigure(Antlr4RailroadTransformer.java:308)
+	at com.github.jknack.antlr4ide.ui.railroad.trafo.Antlr4RailroadTransformer.toFigure(Antlr4RailroadTransformer.java:413)
+	at com.github.jknack.antlr4ide.ui.railroad.trafo.Antlr4RailroadTransformer._toFigure(Antlr4RailroadTransformer.java:303)
+	at com.github.jknack.antlr4ide.ui.railroad.trafo.Antlr4RailroadTransformer.toFigure(Antlr4RailroadTransformer.java:425)
+	at com.github.jknack.antlr4ide.ui.railroad.trafo.Antlr4RailroadTransformer._toFigure(Antlr4RailroadTransformer.java:296)
+	at com.github.jknack.antlr4ide.ui.railroad.trafo.Antlr4RailroadTransformer.toFigure(Antlr4RailroadTransformer.java:379)
+	at com.github.jknack.antlr4ide.ui.railroad.trafo.Antlr4RailroadTransformer.transform(Antlr4RailroadTransformer.java:63)
+	at com.github.jknack.antlr4ide.ui.railroad.trafo.Antlr4RailroadTransformer.children(Antlr4RailroadTransformer.java:367)
+	at com.github.jknack.antlr4ide.ui.railroad.trafo.Antlr4RailroadTransformer._toFigure(Antlr4RailroadTransformer.java:80)
+	at com.github.jknack.antlr4ide.ui.railroad.trafo.Antlr4RailroadTransformer.toFigure(Antlr4RailroadTransformer.java:403)
+	at com.github.jknack.antlr4ide.ui.railroad.trafo.Antlr4RailroadTransformer.transform(Antlr4RailroadTransformer.java:63)
+	at com.github.jknack.antlr4ide.ui.railroad.RailroadSynchronizer.createFigure(RailroadSynchronizer.java:93)
+	at com.github.jknack.antlr4ide.ui.railroad.RailroadSynchronizer.modelChanged(RailroadSynchronizer.java:124)
+	at org.eclipse.xtext.ui.editor.model.XtextDocument.notifyModelListeners(XtextDocument.java:219)
+	at org.eclipse.xtext.ui.editor.model.XtextDocument$XtextDocumentLocker.lambda$1(XtextDocument.java:572)
+	at org.eclipse.xtext.util.concurrent.IReadAccess.lambda$tryReadOnly$0(IReadAccess.java:56)
+	at org.eclipse.xtext.resource.OutdatedStateManager.exec(OutdatedStateManager.java:91)
+	at org.eclipse.xtext.ui.editor.model.XtextDocument$XtextDocumentLocker.internalReadOnly(XtextDocument.java:524)
+	at org.eclipse.xtext.ui.editor.model.XtextDocument$XtextDocumentLocker.readOnly(XtextDocument.java:496)
+	at org.eclipse.xtext.ui.editor.model.XtextDocument.readOnly(XtextDocument.java:135)
+	at org.eclipse.xtext.util.concurrent.IReadAccess.tryReadOnly(IReadAccess.java:52)
+	at org.eclipse.xtext.util.concurrent.IReadAccess.tryReadOnly(IReadAccess.java:70)
+	at org.eclipse.xtext.ui.editor.model.XtextDocument$XtextDocumentLocker.lambda$0(XtextDocument.java:571)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:40)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:185)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:3963)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3590)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1160)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1049)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:660)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:559)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:154)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:150)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:137)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:107)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:401)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:657)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:594)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1465)
+
+!ENTRY org.apache.log4j 4 0 2025-09-17 02:08:11.551
+!MESSAGE org.eclipse.xtext.ui.editor.model.XtextDocument  - Error in IXtextModelListener
+
+!STACK 0
+java.lang.IllegalArgumentException: Unhandled parameter types: [null]
+	at com.github.jknack.antlr4ide.ui.railroad.trafo.Antlr4RailroadTransformer.toFigure(Antlr4RailroadTransformer.java:443)
+	at com.github.jknack.antlr4ide.ui.railroad.trafo.Antlr4RailroadTransformer._toFigure(Antlr4RailroadTransformer.java:327)
+	at com.github.jknack.antlr4ide.ui.railroad.trafo.Antlr4RailroadTransformer.toFigure(Antlr4RailroadTransformer.java:421)
+	at com.github.jknack.antlr4ide.ui.railroad.trafo.Antlr4RailroadTransformer.transform(Antlr4RailroadTransformer.java:63)
+	at com.github.jknack.antlr4ide.ui.railroad.trafo.Antlr4RailroadTransformer.children(Antlr4RailroadTransformer.java:367)
+	at com.github.jknack.antlr4ide.ui.railroad.trafo.Antlr4RailroadTransformer._toFigure(Antlr4RailroadTransformer.java:319)
+	at com.github.jknack.antlr4ide.ui.railroad.trafo.Antlr4RailroadTransformer.toFigure(Antlr4RailroadTransformer.java:423)
+	at com.github.jknack.antlr4ide.ui.railroad.trafo.Antlr4RailroadTransformer._toFigure(Antlr4RailroadTransformer.java:314)
+	at com.github.jknack.antlr4ide.ui.railroad.trafo.Antlr4RailroadTransformer.toFigure(Antlr4RailroadTransformer.java:411)
+	at com.github.jknack.antlr4ide.ui.railroad.trafo.Antlr4RailroadTransformer.transform(Antlr4RailroadTransformer.java:63)
+	at com.github.jknack.antlr4ide.ui.railroad.trafo.Antlr4RailroadTransformer.children(Antlr4RailroadTransformer.java:367)
+	at com.github.jknack.antlr4ide.ui.railroad.trafo.Antlr4RailroadTransformer._toFigure(Antlr4RailroadTransformer.java:308)
+	at com.github.jknack.antlr4ide.ui.railroad.trafo.Antlr4RailroadTransformer.toFigure(Antlr4RailroadTransformer.java:413)
+	at com.github.jknack.antlr4ide.ui.railroad.trafo.Antlr4RailroadTransformer._toFigure(Antlr4RailroadTransformer.java:303)
+	at com.github.jknack.antlr4ide.ui.railroad.trafo.Antlr4RailroadTransformer.toFigure(Antlr4RailroadTransformer.java:425)
+	at com.github.jknack.antlr4ide.ui.railroad.trafo.Antlr4RailroadTransformer._toFigure(Antlr4RailroadTransformer.java:296)
+	at com.github.jknack.antlr4ide.ui.railroad.trafo.Antlr4RailroadTransformer.toFigure(Antlr4RailroadTransformer.java:379)
+	at com.github.jknack.antlr4ide.ui.railroad.trafo.Antlr4RailroadTransformer.transform(Antlr4RailroadTransformer.java:63)
+	at com.github.jknack.antlr4ide.ui.railroad.trafo.Antlr4RailroadTransformer.children(Antlr4RailroadTransformer.java:367)
+	at com.github.jknack.antlr4ide.ui.railroad.trafo.Antlr4RailroadTransformer._toFigure(Antlr4RailroadTransformer.java:80)
+	at com.github.jknack.antlr4ide.ui.railroad.trafo.Antlr4RailroadTransformer.toFigure(Antlr4RailroadTransformer.java:403)
+	at com.github.jknack.antlr4ide.ui.railroad.trafo.Antlr4RailroadTransformer.transform(Antlr4RailroadTransformer.java:63)
+	at com.github.jknack.antlr4ide.ui.railroad.RailroadSynchronizer.createFigure(RailroadSynchronizer.java:93)
+	at com.github.jknack.antlr4ide.ui.railroad.RailroadSynchronizer.modelChanged(RailroadSynchronizer.java:124)
+	at org.eclipse.xtext.ui.editor.model.XtextDocument.notifyModelListeners(XtextDocument.java:219)
+	at org.eclipse.xtext.ui.editor.model.XtextDocument$XtextDocumentLocker.lambda$1(XtextDocument.java:572)
+	at org.eclipse.xtext.util.concurrent.IReadAccess.lambda$tryReadOnly$0(IReadAccess.java:56)
+	at org.eclipse.xtext.resource.OutdatedStateManager.exec(OutdatedStateManager.java:91)
+	at org.eclipse.xtext.ui.editor.model.XtextDocument$XtextDocumentLocker.internalReadOnly(XtextDocument.java:524)
+	at org.eclipse.xtext.ui.editor.model.XtextDocument$XtextDocumentLocker.readOnly(XtextDocument.java:496)
+	at org.eclipse.xtext.ui.editor.model.XtextDocument.readOnly(XtextDocument.java:135)
+	at org.eclipse.xtext.util.concurrent.IReadAccess.tryReadOnly(IReadAccess.java:52)
+	at org.eclipse.xtext.util.concurrent.IReadAccess.tryReadOnly(IReadAccess.java:70)
+	at org.eclipse.xtext.ui.editor.model.XtextDocument$XtextDocumentLocker.lambda$0(XtextDocument.java:571)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:40)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:185)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:3963)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3590)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1160)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1049)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:660)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:559)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:154)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:150)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:137)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:107)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:401)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:657)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:594)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1465)
+
+!ENTRY org.apache.log4j 4 0 2025-09-17 02:08:23.768
+!MESSAGE org.eclipse.xtext.ui.editor.model.XtextDocument  - Error in IXtextModelListener
+
+!STACK 0
+java.lang.IllegalArgumentException: Unhandled parameter types: [null]
+	at com.github.jknack.antlr4ide.ui.railroad.trafo.Antlr4RailroadTransformer.toFigure(Antlr4RailroadTransformer.java:443)
+	at com.github.jknack.antlr4ide.ui.railroad.trafo.Antlr4RailroadTransformer._toFigure(Antlr4RailroadTransformer.java:327)
+	at com.github.jknack.antlr4ide.ui.railroad.trafo.Antlr4RailroadTransformer.toFigure(Antlr4RailroadTransformer.java:421)
+	at com.github.jknack.antlr4ide.ui.railroad.trafo.Antlr4RailroadTransformer.transform(Antlr4RailroadTransformer.java:63)
+	at com.github.jknack.antlr4ide.ui.railroad.trafo.Antlr4RailroadTransformer.children(Antlr4RailroadTransformer.java:367)
+	at com.github.jknack.antlr4ide.ui.railroad.trafo.Antlr4RailroadTransformer._toFigure(Antlr4RailroadTransformer.java:319)
+	at com.github.jknack.antlr4ide.ui.railroad.trafo.Antlr4RailroadTransformer.toFigure(Antlr4RailroadTransformer.java:423)
+	at com.github.jknack.antlr4ide.ui.railroad.trafo.Antlr4RailroadTransformer._toFigure(Antlr4RailroadTransformer.java:314)
+	at com.github.jknack.antlr4ide.ui.railroad.trafo.Antlr4RailroadTransformer.toFigure(Antlr4RailroadTransformer.java:411)
+	at com.github.jknack.antlr4ide.ui.railroad.trafo.Antlr4RailroadTransformer.transform(Antlr4RailroadTransformer.java:63)
+	at com.github.jknack.antlr4ide.ui.railroad.trafo.Antlr4RailroadTransformer.children(Antlr4RailroadTransformer.java:367)
+	at com.github.jknack.antlr4ide.ui.railroad.trafo.Antlr4RailroadTransformer._toFigure(Antlr4RailroadTransformer.java:308)
+	at com.github.jknack.antlr4ide.ui.railroad.trafo.Antlr4RailroadTransformer.toFigure(Antlr4RailroadTransformer.java:413)
+	at com.github.jknack.antlr4ide.ui.railroad.trafo.Antlr4RailroadTransformer._toFigure(Antlr4RailroadTransformer.java:303)
+	at com.github.jknack.antlr4ide.ui.railroad.trafo.Antlr4RailroadTransformer.toFigure(Antlr4RailroadTransformer.java:425)
+	at com.github.jknack.antlr4ide.ui.railroad.trafo.Antlr4RailroadTransformer._toFigure(Antlr4RailroadTransformer.java:296)
+	at com.github.jknack.antlr4ide.ui.railroad.trafo.Antlr4RailroadTransformer.toFigure(Antlr4RailroadTransformer.java:379)
+	at com.github.jknack.antlr4ide.ui.railroad.trafo.Antlr4RailroadTransformer.transform(Antlr4RailroadTransformer.java:63)
+	at com.github.jknack.antlr4ide.ui.railroad.trafo.Antlr4RailroadTransformer.children(Antlr4RailroadTransformer.java:367)
+	at com.github.jknack.antlr4ide.ui.railroad.trafo.Antlr4RailroadTransformer._toFigure(Antlr4RailroadTransformer.java:80)
+	at com.github.jknack.antlr4ide.ui.railroad.trafo.Antlr4RailroadTransformer.toFigure(Antlr4RailroadTransformer.java:403)
+	at com.github.jknack.antlr4ide.ui.railroad.trafo.Antlr4RailroadTransformer.transform(Antlr4RailroadTransformer.java:63)
+	at com.github.jknack.antlr4ide.ui.railroad.RailroadSynchronizer.createFigure(RailroadSynchronizer.java:93)
+	at com.github.jknack.antlr4ide.ui.railroad.RailroadSynchronizer.modelChanged(RailroadSynchronizer.java:124)
+	at org.eclipse.xtext.ui.editor.model.XtextDocument.notifyModelListeners(XtextDocument.java:219)
+	at org.eclipse.xtext.ui.editor.model.XtextDocument$XtextDocumentLocker.lambda$1(XtextDocument.java:572)
+	at org.eclipse.xtext.util.concurrent.IReadAccess.lambda$tryReadOnly$0(IReadAccess.java:56)
+	at org.eclipse.xtext.resource.OutdatedStateManager.exec(OutdatedStateManager.java:91)
+	at org.eclipse.xtext.ui.editor.model.XtextDocument$XtextDocumentLocker.internalReadOnly(XtextDocument.java:524)
+	at org.eclipse.xtext.ui.editor.model.XtextDocument$XtextDocumentLocker.readOnly(XtextDocument.java:496)
+	at org.eclipse.xtext.ui.editor.model.XtextDocument.readOnly(XtextDocument.java:135)
+	at org.eclipse.xtext.util.concurrent.IReadAccess.tryReadOnly(IReadAccess.java:52)
+	at org.eclipse.xtext.util.concurrent.IReadAccess.tryReadOnly(IReadAccess.java:70)
+	at org.eclipse.xtext.ui.editor.model.XtextDocument$XtextDocumentLocker.lambda$0(XtextDocument.java:571)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:40)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:185)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:3963)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3590)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1160)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1049)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:660)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:559)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:154)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:150)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:137)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:107)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:401)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:657)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:594)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1465)
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-09-17 02:25:42.461
+!MESSAGE warning(125): com\miorganizacion\simple\interprete\Simple.g4:27:26: implicit definition of token BRACKET in parser
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-09-17 02:25:42.461
+!MESSAGE warning(125): com\miorganizacion\simple\interprete\Simple.g4:27:34: implicit definition of token CLOSE in parser
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-09-17 03:16:06.276
+!MESSAGE warning(125): com\miorganizacion\simple\interprete\Simple.g4:25:52: implicit definition of token BRACKET in parser
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-09-17 03:16:06.277
+!MESSAGE warning(125): com\miorganizacion\simple\interprete\Simple.g4:25:60: implicit definition of token CLOSE in parser
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-09-17 03:19:31.041
+!MESSAGE warning(125): com\miorganizacion\simple\interprete\Simple.g4:28:52: implicit definition of token BRACKET in parser
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-09-17 03:19:31.041
+!MESSAGE warning(125): com\miorganizacion\simple\interprete\Simple.g4:28:60: implicit definition of token CLOSE in parser
+!SESSION 2025-09-17 15:21:39.149 -----------------------------------------------
+eclipse.buildId=4.14.0.I20191210-0610
+java.version=11.0.28
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=es_CR
+Framework arguments:  -product org.eclipse.epp.package.dsl.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.dsl.product
+
+!ENTRY org.eclipse.egit.ui 2 0 2025-09-17 15:22:05.207
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\andre'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+!SESSION 2025-09-17 15:25:46.917 -----------------------------------------------
+eclipse.buildId=4.14.0.I20191210-0610
+java.version=11.0.28
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=es_CR
+Framework arguments:  -product org.eclipse.epp.package.dsl.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.dsl.product
+
+!ENTRY org.eclipse.egit.ui 2 0 2025-09-17 15:25:59.798
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\andre'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+!SESSION 2025-09-17 21:30:21.276 -----------------------------------------------
+eclipse.buildId=4.14.0.I20191210-0610
+java.version=11.0.28
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=es_CR
+Framework arguments:  -product org.eclipse.epp.package.dsl.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.dsl.product
+
+!ENTRY org.eclipse.egit.ui 2 0 2025-09-17 21:31:05.370
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\andre'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.

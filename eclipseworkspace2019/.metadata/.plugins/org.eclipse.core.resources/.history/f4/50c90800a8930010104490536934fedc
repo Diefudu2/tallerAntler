@@ -1,0 +1,18 @@
+package com.miorganizacion.simple.interprete.ast;
+
+public class Constant implements ASTNode {
+	private ASTNode operand1;
+	private ASTNode operand2;
+	
+	public Constant(ASTNode operand1, ASTNode operand2) {
+		super();
+		this.operand1 = operand1;
+		this.operand2 = operand2;
+	}
+
+	@Override
+	public Object execute() {
+		return (int)operand1.execute() * (int)operand2.execute();
+	}
+
+}

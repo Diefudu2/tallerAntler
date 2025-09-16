@@ -1,0 +1,12 @@
+package com.miorganizacion.simple.interprete.ast;
+
+public class Snippet {
+	public static void main(String[] args) {
+		import java.util.Map;
+		import java.util.HashMap;
+		import java.util.List;
+		import java.util.ArrayList;
+		import com.miorganizacion.simple.interprete.ast.*;
+	}
+}
+

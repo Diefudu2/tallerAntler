@@ -1,0 +1,15 @@
+package com.miorganizacion.simple.interprete.ast;
+
+public class Variable implements ASTNode {
+    private String name;
+    
+    public Variable(String name) {
+        this.name = name;
+    }
+
+    @Override
+    public Object execute() {
+        // Implementar acceso a symbolTable
+        return null; // Devolver valor de la variable
+    }
+}

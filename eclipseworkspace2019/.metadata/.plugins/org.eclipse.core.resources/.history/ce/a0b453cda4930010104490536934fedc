@@ -1,0 +1,11 @@
+package com.miorganizacion.simple.interprete.ast;
+
+public class If implements ASTNode {
+
+	@Override
+	public Object execute() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

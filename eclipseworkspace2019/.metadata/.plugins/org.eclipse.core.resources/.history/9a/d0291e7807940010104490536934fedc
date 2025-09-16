@@ -1,0 +1,7 @@
+program miprograma{
+	println 1;
+	
+	var x;
+	x = 7
+	println x+5;
+}

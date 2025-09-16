@@ -1,0 +1,16 @@
+package com.miorganizacion.simple.interprete.ast;
+
+public class VarAssign implements ASTNode {
+    private String name;
+    
+    public VarAssign(String name) {
+        this.name = name;
+    }
+
+    @Override
+    public Object execute() {
+        // Agregar variable al symbolTable con valor por defecto
+        // symbolTable.put(name, 0);
+        return null;
+    }
+}

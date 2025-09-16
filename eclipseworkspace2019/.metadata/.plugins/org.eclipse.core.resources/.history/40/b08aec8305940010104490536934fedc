@@ -1,0 +1,34 @@
+package com.miorganizacion.simple.interprete.ast;
+
+import java.util.List;
+
+public class If implements ASTNode {
+    private ASTNode condition;
+    private List<ASTNode> ifBody;
+    private List<ASTNode> elseBody;
+    
+    public If(ASTNode condition, List<ASTNode> ifBody, List<ASTNode> elseBody) {
+        this.condition = condition;
+        this.ifBody = ifBody;
+        this.elseBody = elseBody;
+    }
+    
+    @Override
+    public Object execute() {
+        Object condValue = condition.execute();
+        if (!(condValue instanceof Boolean)) {
+            throw new RuntimeException("Condition must be boolean");
+        }
+        
+        if ((Boolean) condValue) {
+            for (ASTNode node : ifBody) {
+                node.execute();
+            }
+        } else if (elseBody != null) {
+            for (ASTNode node : elseBody) {
+                node.execute();
+            }
+        }
+        return null;
+    }
+}

@@ -1,0 +1,16 @@
+package com.miorganizacion.simple.interprete.ast;
+
+public class Println implements ASTNode {
+    private ASTNode expression;
+    
+    public Println(ASTNode expression) {
+        this.expression = expression;
+    }
+
+    @Override
+    public Object execute() {
+        Object value = expression.execute();
+        System.out.println(value);
+        return value;
+    }
+}

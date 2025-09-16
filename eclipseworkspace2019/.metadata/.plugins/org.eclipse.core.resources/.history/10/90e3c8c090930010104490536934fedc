@@ -1,0 +1,5 @@
+program miprograma{
+
+	println 6;
+	
+}

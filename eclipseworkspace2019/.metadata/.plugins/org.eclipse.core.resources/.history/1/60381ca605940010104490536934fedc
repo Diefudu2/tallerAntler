@@ -1,0 +1,25 @@
+package com.miorganizacion.simple.interprete.ast;
+
+import java.util.Map;
+
+public class VarAssign implements ASTNode {
+    private String name;
+    private ASTNode expression;
+    private Map<String, Object> symbolTable;
+    
+    public VarAssign(String name, ASTNode expression, Map<String, Object> symbolTable) {
+        this.name = name;
+        this.expression = expression;
+        this.symbolTable = symbolTable;
+    }
+
+    @Override
+    public Object execute() {
+        if (!symbolTable.containsKey(name)) {
+            throw new RuntimeException("Variable '" + name + "' not declared");
+        }
+        Object value = expression.execute();
+        symbolTable.put(name, value);
+        return value;
+    }
+}

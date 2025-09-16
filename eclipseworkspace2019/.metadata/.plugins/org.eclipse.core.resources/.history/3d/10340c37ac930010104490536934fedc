@@ -1,0 +1,22 @@
+package com.miorganizacion.simple.interprete.ast;
+
+import java.util.Map;
+
+public class VarDecl implements ASTNode {
+    private String name;
+    private Map<String, Object> symbolTable;
+    
+    public VarDecl(String name, Map<String, Object> symbolTable) {
+        this.name = name;
+        this.symbolTable = symbolTable;
+    }
+
+    @Override
+    public Object execute() {
+        if (symbolTable.containsKey(name)) {
+            throw new RuntimeException("Variable '" + name + "' already declared");
+        }
+        symbolTable.put(name, 0); // Valor por defecto
+        return null;
+    }
+}

@@ -1,0 +1,19 @@
+package com.miorganizacion.simple.interprete.ast;
+
+import java.util.Map;
+
+public class VarDecl implements ASTNode {
+    private String name;
+    private Map<String, Object> symbolTable;
+    
+    public VarDecl(String name, Map<String, Object> symbolTable) {
+        this.name = name;
+        this.symbolTable = symbolTable;
+    }
+    
+    @Override
+    public Object execute() {
+        symbolTable.put(name, null); // Initialize with null
+        return null;
+    }
+}
