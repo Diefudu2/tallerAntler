@@ -12,5 +12,3 @@ program mixto{
     var r;
     r = SIMULATEGAUSS(50, 10);
     println r;
-    
-    

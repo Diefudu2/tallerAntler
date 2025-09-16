@@ -12,3 +12,4 @@ public class LessThan implements ASTNode {
         return ((Number)left.execute(symbolTable)).doubleValue() < ((Number)right.execute(symbolTable)).doubleValue();
     }
 }
+

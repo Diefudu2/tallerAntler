@@ -12,4 +12,3 @@ public class GreaterThan implements ASTNode {
         return ((Number)left.execute(symbolTable)).doubleValue() > ((Number)right.execute(symbolTable)).doubleValue();
     }
 }
-

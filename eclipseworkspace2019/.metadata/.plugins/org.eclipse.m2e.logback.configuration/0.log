@@ -1965,3 +1965,40 @@
 2025-09-16 14:22:45,227 [Worker-63: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\andre\eclipseworkspace2019\interprete\src\main\resources
 2025-09-16 14:22:45,227 [Worker-63: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
 2025-09-16 14:22:45,227 [Worker-63: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\andre\eclipseworkspace2019\interprete\src\test\resources
+2025-09-16 16:30:16,765 [Worker-7: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2025-09-16 16:30:55,508 [Worker-3: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - No grammars to process
+2025-09-16 16:30:55,509 [Worker-3: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - ANTLR 4: Processing source directory C:\Users\andre\OneDrive\Documentos\GitHub\tallerAntler\eclipseworkspace2019\interprete\src\main\antlr4
+2025-09-16 16:30:56,449 [Worker-3: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2025-09-16 16:30:56,449 [Worker-3: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\andre\OneDrive\Documentos\GitHub\tallerAntler\eclipseworkspace2019\interprete\src\main\resources
+2025-09-16 16:30:56,449 [Worker-3: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2025-09-16 16:30:56,450 [Worker-3: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\andre\OneDrive\Documentos\GitHub\tallerAntler\eclipseworkspace2019\interprete\src\test\resources
+2025-09-16 17:04:19,240 [Worker-38: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - No grammars to process
+2025-09-16 17:04:19,240 [Worker-38: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - ANTLR 4: Processing source directory C:\Users\andre\OneDrive\Documentos\GitHub\tallerAntler\eclipseworkspace2019\interprete\src\main\antlr4
+2025-09-16 17:04:19,241 [Worker-38: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2025-09-16 17:04:19,241 [Worker-38: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\andre\OneDrive\Documentos\GitHub\tallerAntler\eclipseworkspace2019\interprete\src\main\resources
+2025-09-16 17:04:19,242 [Worker-38: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2025-09-16 17:04:19,242 [Worker-38: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\andre\OneDrive\Documentos\GitHub\tallerAntler\eclipseworkspace2019\interprete\src\test\resources
+2025-09-16 17:14:47,840 [Worker-41: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - No grammars to process
+2025-09-16 17:14:47,840 [Worker-41: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - ANTLR 4: Processing source directory C:\Users\andre\OneDrive\Documentos\GitHub\tallerAntler\eclipseworkspace2019\interprete\src\main\antlr4
+2025-09-16 17:14:47,841 [Worker-41: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2025-09-16 17:14:47,841 [Worker-41: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\andre\OneDrive\Documentos\GitHub\tallerAntler\eclipseworkspace2019\interprete\src\main\resources
+2025-09-16 17:14:47,842 [Worker-41: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2025-09-16 17:14:47,842 [Worker-41: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\andre\OneDrive\Documentos\GitHub\tallerAntler\eclipseworkspace2019\interprete\src\test\resources
+2025-09-16 17:14:50,913 [Worker-42: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - No grammars to process
+2025-09-16 17:14:50,913 [Worker-42: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - ANTLR 4: Processing source directory C:\Users\andre\OneDrive\Documentos\GitHub\tallerAntler\eclipseworkspace2019\interprete\src\main\antlr4
+2025-09-16 17:14:50,914 [Worker-42: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2025-09-16 17:14:50,914 [Worker-42: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\andre\OneDrive\Documentos\GitHub\tallerAntler\eclipseworkspace2019\interprete\src\main\resources
+2025-09-16 17:14:50,914 [Worker-42: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2025-09-16 17:14:50,914 [Worker-42: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\andre\OneDrive\Documentos\GitHub\tallerAntler\eclipseworkspace2019\interprete\src\test\resources
+2025-09-16 17:16:04,851 [Worker-47: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - No grammars to process
+2025-09-16 17:16:04,851 [Worker-47: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - ANTLR 4: Processing source directory C:\Users\andre\OneDrive\Documentos\GitHub\tallerAntler\eclipseworkspace2019\interprete\src\main\antlr4
+2025-09-16 17:16:04,852 [Worker-47: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2025-09-16 17:16:04,852 [Worker-47: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\andre\OneDrive\Documentos\GitHub\tallerAntler\eclipseworkspace2019\interprete\src\main\resources
+2025-09-16 17:16:04,852 [Worker-47: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2025-09-16 17:16:04,852 [Worker-47: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\andre\OneDrive\Documentos\GitHub\tallerAntler\eclipseworkspace2019\interprete\src\test\resources
+2025-09-16 17:20:21,614 [Worker-49: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - No grammars to process
+2025-09-16 17:20:21,615 [Worker-49: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - ANTLR 4: Processing source directory C:\Users\andre\OneDrive\Documentos\GitHub\tallerAntler\eclipseworkspace2019\interprete\src\main\antlr4
+2025-09-16 17:20:21,615 [Worker-49: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2025-09-16 17:20:21,616 [Worker-49: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\andre\OneDrive\Documentos\GitHub\tallerAntler\eclipseworkspace2019\interprete\src\main\resources
+2025-09-16 17:20:21,616 [Worker-49: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2025-09-16 17:20:21,616 [Worker-49: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\andre\OneDrive\Documentos\GitHub\tallerAntler\eclipseworkspace2019\interprete\src\test\resources

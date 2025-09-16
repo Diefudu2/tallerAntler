@@ -8,4 +8,3 @@ public class LogicalAnd implements ASTNode {
         return (Boolean)left.execute(symbolTable) && (Boolean)right.execute(symbolTable);
     }
 }
-

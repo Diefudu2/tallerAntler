@@ -16,4 +16,3 @@ public class SimulateGauss implements ASTNode {
         return mean + RANDOM.nextGaussian() * stddev;
     }
 }
-
